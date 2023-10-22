@@ -1,0 +1,6 @@
+python_igraph
+numpy
+matplotlib
+scipy
+pandas
+torch
