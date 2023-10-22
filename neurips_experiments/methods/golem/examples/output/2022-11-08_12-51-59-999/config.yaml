@@ -1,0 +1,16 @@
+B_scale: 1.0
+checkpoint_iter: 5000
+d: 20
+degree: 4
+equal_variances: true
+graph_thres: 0.3
+graph_type: ER
+init: false
+init_path: null
+lambda_1: 0.02
+lambda_2: 5.0
+learning_rate: 0.001
+n: 1000
+noise_type: gaussian_ev
+num_iter: 100000.0
+seed: 1

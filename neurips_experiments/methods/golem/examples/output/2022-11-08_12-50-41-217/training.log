@@ -1,0 +1,17 @@
+2022-11-08 12:50:41,219 INFO - __main__ - Finished setting up the logger.
+2022-11-08 12:50:41,225 INFO - __main__ - Finished loading the dataset.
+2022-11-08 12:50:41,225 CRITICAL - utils.logger - Unhandled exception.
+Traceback (most recent call last):
+  File "c:\Users\pmisi\Desktop\golem\src\main.py", line 70, in <module>
+    main()
+  File "c:\Users\pmisi\Desktop\golem\src\main.py", line 56, in main
+    B_est = golem(dataset.X, args.lambda_1, args.lambda_2, args.equal_variances, args.num_iter,
+  File "c:\Users\pmisi\Desktop\golem\src\golem.py", line 44, in golem
+    model = GolemModel(n, d, lambda_1, lambda_2, equal_variances, seed, B_init)
+  File "c:\Users\pmisi\Desktop\golem\src\models\golem_model.py", line 38, in __init__
+    self._build()
+  File "c:\Users\pmisi\Desktop\golem\src\models\golem_model.py", line 54, in _build
+    self.lr = tf.compat.v1.placeholder(tf.float32)
+  File "c:\Users\pmisi\anaconda3\lib\site-packages\tensorflow\python\ops\array_ops.py", line 3298, in placeholder
+    raise RuntimeError("tf.placeholder() is not compatible with "
+RuntimeError: tf.placeholder() is not compatible with eager execution.
