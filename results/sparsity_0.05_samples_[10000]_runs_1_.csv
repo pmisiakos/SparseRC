@@ -1,0 +1,16 @@
+noise = gauss, noise_std = 0.01, noise_effect = both, sparsity = 0.05, omega = 0.09, weight_bounds = [0.1, 0.9], edges = 4, samples = [10000], nodes = [2000], graph_type = ER, fixSup = False, methods = ['sparserc'], transformation = None, runs = 1, table = TPR, sparserc_epochs = 5000, legend = False, 
+samples = 10000, nodes = 2000, noise = gauss
+Avg Varsortability, 0.000
+Avg cond num of (I + transclos(W)) is 0.000
+Acc sparserc is, 50.000, 1.000, 8050.000, 0.000, 0.062, 0.877, 7141.908, 0.166, 0.000
+Std sparserc is, 0.000, 0.000, 0.000, 0.000, 0.000, 0.000, 0.000, 0.000, 0.000
+Acc notears is, 489.000, 0.953, 7806.000, 0.000, 0.164, 0.827, 46213.462, 0.222, 0.001
+Std notears is, 0.000, 0.000, 0.000, 0.000, 0.000, 0.000, 0.000, 0.000, 0.000
+noise = gauss, noise_std = 0.01, noise_effect = both, sparsity = 0.05, omega = 0.09, weight_bounds = [0.1, 0.9], edges = 4, samples = [10000], nodes = [3000], graph_type = ER, fixSup = False, methods = ['sparserc'], transformation = None, runs = 1, table = TPR, sparserc_epochs = 5000, legend = False, 
+samples = 10000, nodes = 3000, noise = gauss
+Avg Varsortability, 0.000
+Avg cond num of (I + transclos(W)) is 0.000
+Acc sparserc is, 134.000, 1.000, 12122.000, 0.000, 0.067, 0.872, 19660.766, 0.171, 0.000
+Std sparserc is, 0.000, 0.000, 0.000, 0.000, 0.000, 0.000, 0.000, 0.000, 0.000
+Acc notears is, 796.000, 0.952, 11768.000, 0.000, 0.169, 0.833, 125861.419, 0.223, 0.001
+Std notears is, 0.000, 0.000, 0.000, 0.000, 0.000, 0.000, 0.000, 0.000, 0.000

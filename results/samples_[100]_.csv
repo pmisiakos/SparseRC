@@ -1,0 +1,21 @@
+noise = gauss, noise_std = 0.01, noise_effect = both, sparsity = 0.1, omega = 0.09, weight_bounds = [0.1, 0.9], edges = 4, samples = [100, 200, 500, 800, 1000], nodes = [100], graph_type = ER, fixSup = False, methods = ['sparserc', 'dagma', 'golem', 'notears', 'nocurl', 'GES', 'MMPC', 'pc'], transformation = None, runs = 5, table = TPR, sparserc_epochs = 5000, legend = False, 
+samples = 100, nodes = 100, noise = gauss
+Avg Varsortability, 0.967
+Avg cond num of (I + transclos(W)) is 0.000
+Acc sparserc is, 2062.800, 0.895, 2437.000, nan, 0.877, 0.720, 12.516, 0.745, 0.100
+Std sparserc is, 92.047, 0.020, 87.448, nan, 0.058, 0.022, 0.738, 0.035, 0.014
+Acc dagma is, 328.400, 0.297, 190.400, nan, 0.836, nan, 253.923, nan, nan
+Std dagma is, 12.847, 0.032, 14.389, nan, 0.023, nan, 27.762, nan, nan
+Acc golem is, 598.600, 0.390, 536.000, 7409.800, 1.256, 0.670, 193.845, 1.303, 0.118
+Std golem is, 68.254, 0.052, 103.543, 325.555, 0.037, 0.037, 9.555, 0.104, 0.016
+Acc notears is, 1031.000, 0.746, 1268.800, nan, 0.809, 0.772, 679.119, 0.727, 0.072
+Std notears is, 69.676, 0.019, 59.607, nan, 0.035, 0.009, 72.133, 0.018, 0.007
+Acc nocurl is, 3336.000, 0.759, 3598.400, 4496.000, 3.301, nan, 33.083, nan, nan
+Std nocurl is, 37.427, 0.025, 30.598, 507.059, 0.162, nan, 4.906, nan, nan
+Acc GES is, 460.800, 0.609, 594.200, nan, 2.455, nan, 3.923, nan, nan
+Std GES is, 34.661, 0.054, 7.359, nan, 0.042, nan, 0.505, nan, nan
+Acc MMPC is, 415.200, 0.311, 278.800, nan, 1.808, nan, 0.697, nan, nan
+Std MMPC is, 4.118, 0.021, 8.635, nan, 0.050, nan, 0.112, nan, nan
+Acc pc is, 351.400, 0.207, 140.200, nan, 1.463, nan, 2.216, nan, nan
+Std pc is, 12.355, 0.017, 7.359, nan, 0.029, nan, 0.095, nan, nan
+

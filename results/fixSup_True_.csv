@@ -1,0 +1,30 @@
+noise = gauss, noise_std = 0.01, noise_effect = both, sparsity = 0.1, omega = 0.09, weight_bounds = [0.1, 0.9], edges = 4, samples = [1000], nodes = [100], graph_type = ER, fixSup = True, methods = ['sparserc', 'dagma', 'golem', 'notears', 'nocurl', 'GES', 'sortnregress', 'lingam', 'FGS', 'MMPC', 'CAM', 'pc'], transformation = None, runs = 5, table = TPR, sparserc_epochs = 5000, legend = False, 
+samples = 1000, nodes = 100, noise = gauss,
+Avg Varsortability,0.888
+Avg cond num of (I + transclos(W)) is 0.000,
+Acc sparserc is,1161.4,0.489,1244.2,7604.8,1.45,0.524,14.857,1.036,0.136,0.23,
+Std sparserc is,96.207,0.055,106.531,258.947,0.318,0.044,2.036,0.175,0.079,0.022,
+Acc dagma is,414.6,0.033,49.8,7748.6,1.016, nan,501.491, nan, nan,0.008,
+Std dagma is,15.055,0.016,27.824,310.2,0.005, nan,91.335, nan, nan,0.005,
+Acc golem is,443.4,0.06,113,8110.4,2.427,0.246,360.387,1.576,0.113,0.02,
+Std golem is,25.152,0.055,36.976,412.768,1.026,0.047,142.061,0.391,0.054,0.004,
+Acc notears is,472,0.045,128,7707,1.189,0.241,668.67,0.99,0.097,0.024,
+Std notears is,45.769,0.024,68.891,274.918,0.045,0.027,386.417,0.026,0.055,0.013,
+Acc nocurl is,1411.6,0.499,1500,7350.4,1.629, nan,51.863, nan, nan,0.286,
+Std nocurl is,116.225,0.061,157.776,569.115,0.298, nan,15.14, nan, nan,0.03,
+Acc GES is,613.8,0.638,763.6,5817.2,2.757, nan,6.224, nan, nan,0.112,
+Std GES is,117.066,0.05,101.498,758.933,0.15, nan,2.147, nan, nan,0.025,
+Acc sortnregress is,1660.6,0.577,1793.2,5477,1.222, nan,1.975, nan, nan,0.343,
+Std sortnregress is,423.229,0.04,429.19,279.371,0.171, nan,0.037, nan, nan,0.096
+Acc lingam is, 1575.000, 0.521, 1679.600, 6951.800, 1.204, nan, 5.526, nan, nan, 0.323
+Std lingam is, 197.519, 0.045, 197.794, 618.610, 0.159, nan, 0.590, nan, nan, 0.043
+Acc direct_lingam is, 1475.600, 0.570, 1610.600, 6799.600, 0.852, nan, 106.112, nan, nan, 0.304
+Std direct_lingam is, 180.269, 0.022, 192.365, 600.834, 0.018, nan, 0.638, nan, nan, 0.041
+Acc FGS is,564.4,0.535,489.8,8632.4,2.275, nan,6.124, nan, nan,0.081,
+Std FGS is,71.023,0.031,54.503,382.855,0.104, nan,5.051, nan, nan,0.012,
+Acc MMPC is,454,0.291,340.8, nan,1.98, nan,2.416, nan, nan,0.049,
+Std MMPC is,6.753,0.107,98.286, nan,0.231, nan,0.567, nan, nan,0.012,
+Acc CAM is,390,0.379,332.2,7175.2,1.974, nan,342.215, nan, nan,0.04,
+Std CAM is,51.439,0.059,14.288,578.347,0.034, nan,11.38, nan, nan,0.006,
+Acc pc is,379,0.214,183,8118.6,1.62, nan,5.339, nan, nan,0.021,
+Std pc is,37.395,0.066,19.759,314.359,0.092, nan,3.168, nan, nan,0.002,

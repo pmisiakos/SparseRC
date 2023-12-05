@@ -1,0 +1,10 @@
+noise = gauss, noise_std = 0.01, noise_effect = both, sparsity = 0.05, omega = 0.09, weight_bounds = [0.1, 0.9], edges = 4, samples = [5000], nodes = [1000], graph_type = ER, fixSup = False, methods = ['sparserc', 'notears', 'golem'], transformation = None, runs = 1, table = TPR, sparserc_epochs = 5000, legend = False, 
+samples = 5000, nodes = 1000, noise = gauss
+Avg Varsortability, 0.000
+Avg cond num of (I + transclos(W)) is 0.000
+Acc sparserc is, 26.000, 0.999, 4020.000, 0.000, 0.060, 0.890, 1085.403, 0.165, 0.000
+Std sparserc is, 0.000, 0.000, 0.000, 0.000, 0.000, 0.000, 0.000, 0.000, 0.000
+Acc notears is, 282.000, 0.942, 3862.000, 0.000, 0.181, 0.843, 10104.361, 0.244, 0.002
+Std notears is, 0.000, 0.000, 0.000, 0.000, 0.000, 0.000, 0.000, 0.000, 0.000
+Acc golem is, 699.000, 0.840, 3482.000, 0.000, 0.214, 0.813, 37290.767, 0.312, 0.003
+Std golem is, 0.000, 0.000, 0.000, 0.000, 0.000, 0.000, 0.000, 0.000, 0.000
