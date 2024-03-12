@@ -101,6 +101,7 @@ def execute_method(X, method, f, args, pc=None, dataset="synthetic", XF=None):
         start = time.time()
         W_est = sortnregress(X)
         T = time.time() - start
+        W_est = np.where(np.abs(W_est) > args.omega, W_est, 0) #thresholding
         B_est = W_est != 0
 
     elif method == 'lingam':
@@ -109,6 +110,7 @@ def execute_method(X, method, f, args, pc=None, dataset="synthetic", XF=None):
         model.fit(X)
         T = time.time() - start
         W_est = model.adjacency_matrix_.T
+        W_est = np.where(np.abs(W_est) > args.omega, W_est, 0) #thresholding
         B_est = W_est != 0
     
     elif method == 'direct_lingam':
@@ -117,6 +119,7 @@ def execute_method(X, method, f, args, pc=None, dataset="synthetic", XF=None):
         model.fit(X)
         T = time.time() - start
         W_est = model.adjacency_matrix_.T
+        W_est = np.where(np.abs(W_est) > args.omega, W_est, 0) #thresholding
         B_est = W_est != 0
     
     elif method == 'pc':
@@ -127,6 +130,7 @@ def execute_method(X, method, f, args, pc=None, dataset="synthetic", XF=None):
         T = time.time() - start
         W_est = nx.adjacency_matrix(output_graph_nc).todense()
         W_est = np.asarray(W_est).astype(np.float64)
+        W_est = np.where(np.abs(W_est) > args.omega, W_est, 0) #thresholding
         B_est = W_est != 0
 
     else:
